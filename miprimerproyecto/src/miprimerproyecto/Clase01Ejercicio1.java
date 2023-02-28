@@ -5,7 +5,7 @@ public class Clase01Ejercicio1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int numeroInicio = 5;
+		int numeroInicio = 6;
 		int numeroFin = 14;
 		// Se deberían mostrar los números:
 		//5,6,7,8,9,10,11,12,13,14
