@@ -5,7 +5,7 @@ public class Ejercicio1 {
 	public static void main(String[] args) {
 		
 		// Sintaxis Básico
-		char unaLetra = 'a';   
+		char unaLetra = 'd';   
 		boolean unValorBooleano = true;
 		int miPrimerContador = 66;
 		double unValor = 1.68;
