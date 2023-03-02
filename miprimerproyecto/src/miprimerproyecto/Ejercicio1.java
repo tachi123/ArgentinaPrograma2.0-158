@@ -8,7 +8,7 @@ public class Ejercicio1 {
 		char unaLetra = 'c';   
 		boolean unValorBooleano = true;
 		int miPrimerContador = 66;
-		double unValor = 1.68;
+		double unValor = 2.0;
 		float otroNum = 2.344f;
 		
 		System.out.println(unaLetra);
