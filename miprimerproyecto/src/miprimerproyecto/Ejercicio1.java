@@ -6,7 +6,7 @@ public class Ejercicio1 {
 		
 		// Sintaxis Básico
 		char unaLetra = 'c';   
-		boolean unValorBooleano = true;
+		boolean unValorBooleano = false;
 		int miPrimerContador = 66;
 		double unValor = 2.0;
 		float otroNum = 2.344f;
