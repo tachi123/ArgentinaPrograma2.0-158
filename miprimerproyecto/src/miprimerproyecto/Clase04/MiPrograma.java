@@ -1,9 +1,12 @@
 package miprimerproyecto.Clase04;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Scanner;
 
 public class MiPrograma {
 
@@ -25,7 +28,19 @@ public class MiPrograma {
 		}
 		
 		System.out.println(pathRelativo.toAbsolutePath());
+
 		
+		//Lectura de archivos linea por línea para evitar sobrecarga de memoria.
+		try {
+            Scanner scn = new Scanner(new File(rutaRelativa));
+            
+            while(scn.hasNext()){
+                System.out.println(scn.nextLine());
+            }
+            
+        } catch (FileNotFoundException ex) {
+            ex.printStackTrace();
+        }
 		
 	}
 
