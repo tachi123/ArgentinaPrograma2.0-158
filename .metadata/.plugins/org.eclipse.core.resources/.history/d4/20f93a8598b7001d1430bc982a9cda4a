@@ -1,0 +1,25 @@
+package miprimerproyecto;
+
+public class Clase01Ejercicio2 {
+	
+	public static void main(String[] args) {
+		
+		float ingresosMensuales = 100000;
+		int cantidadVehiculosMenorA5anos = 3;
+		int cantidadInmuebles = 1;
+		int cantidadVehiculosLujo = 0; // Incluye embarcación, aeronave o titular de activos societarios
+		
+		if(
+				
+				) {
+			System.out.print("El hogar pertenece al segmento de ingresos altos");
+		} else {
+			System.out.print("El hogar NO pertenece al segmento de ingresos altos");
+		}
+			
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package miprimerproyecto;
+
+public class ClaseConArrays {
+
+	public static void main(String[] args) {
+		
+		int numeros[] = new int[3];
+		
+		numeros[0] = 12;
+		numeros[1] = 1;
+		numeros[2] = 25;
+		
+		
+	
+	}
+	
+	
+}

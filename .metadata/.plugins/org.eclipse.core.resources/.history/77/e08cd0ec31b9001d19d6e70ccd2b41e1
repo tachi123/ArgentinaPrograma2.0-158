@@ -1,0 +1,15 @@
+package miprimerproyecto;
+
+public class ClaseConString {
+
+	public static void main(String[] args) {
+		
+		
+		String unaOracion = "Hola clase!";
+		
+		System.out.println(unaOracion);
+		
+		System.out.println("La longitud de la oracion:"+unaOracion.length() );
+	}
+
+}
