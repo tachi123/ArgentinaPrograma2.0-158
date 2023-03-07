@@ -1,5 +1,7 @@
 package miprimerproyecto.Clase01;
 
+import java.util.Scanner;
+
 public class CategoriaMonotributo {
 
 	public static void main(String[] args) {
