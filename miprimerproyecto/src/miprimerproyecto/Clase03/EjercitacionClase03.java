@@ -57,6 +57,23 @@ public class EjercitacionClase03 {
 		
 		System.out.println("La sumatoria de los valores mayores o iguales a \""+x+"\" es:"+sumatoriaDeNumeros);
 		
+		String hola = "hola";
+		
+		byte[] decodedBytes = hola.getBytes();
+		
+		hola = new String(decodedBytes);
+		
+		System.out.println(hola);
+		
+		for(int j = 0; j < decodedBytes.length; j++) {
+			decodedBytes[j] = (byte) (decodedBytes[j] + 1);
+		}
+		
+		hola = new String(decodedBytes);
+		
+		System.out.println(hola);
+		
+		
 	}
 
 }
