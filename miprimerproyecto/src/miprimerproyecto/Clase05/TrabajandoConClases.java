@@ -1,5 +1,7 @@
 package miprimerproyecto.Clase05;
 
+import java.util.Scanner;
+
 import miprimerproyecto.Entidades.Ave;
 import miprimerproyecto.Entidades.Carrito;
 import miprimerproyecto.Entidades.Persona;
@@ -9,10 +11,11 @@ public class TrabajandoConClases {
 
 	public static void main(String[] args) {
 		//pruebaConAve();
-
+		
 		//Instancias de productos
 		Producto harina = new Producto("harina");
 		
+		harina.setNombre("Harina");
 		harina.setNombre("Harina 000");
 		harina.setDescripcion("Harina sin levadura");
 		harina.setPesoKg(1);
